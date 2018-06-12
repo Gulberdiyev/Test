@@ -24,10 +24,10 @@ public class Cyberlogin {
 				
 				
 				Thread.sleep(2000);
-				driver.findElement(By.id("pseudonym_session_unique_id")).sendKeys("annamyratgulberdiyev");
+				driver.findElement(By.id("pseudonym_session_unique_id")).sendKeys("");
 				
 				Thread.sleep(2000);
-				driver.findElement(By.id("pseudonym_session_password")).sendKeys("Shurik101"+Keys.ENTER);
+				driver.findElement(By.id("pseudonym_session_password")).sendKeys(""+Keys.ENTER);
 				
 				//click() --> clicks 
 				
